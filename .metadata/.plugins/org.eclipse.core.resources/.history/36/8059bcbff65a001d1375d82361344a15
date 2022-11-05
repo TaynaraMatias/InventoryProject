@@ -1,0 +1,12 @@
+package br.edu.unasp.clientes.repository;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.estoque.produtos.model.Cliente;
+
+@Repository
+public interface ClienteRepository extends CrudRepository<Cliente, Long> {
+	
+
+}

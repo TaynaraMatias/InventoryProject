@@ -1,0 +1,34 @@
+package com.estoque.produtos.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.estoque.produtos.model.Cliente;
+import com.estoque.produtos.repository.ClienteRepository;
+
+@Service
+public class ProdutoService {
+
+	@Autowired
+	private ProdutoRepository repository;
+	
+	public Iterable<Cliente> getClientes(){
+		return repository.findAll();
+	}
+	
+	public void createCliente(Cliente cliente) {
+		repository.save(cliente);
+	}
+	
+	public Cliente getCliente(Long id) {
+		return repository.findById(id).orElse(null);
+	}
+	
+	public void updateCliente(Cliente cliente) {
+		repository.save(cliente);
+	}
+	
+	public void deleteCliente(Cliente cliente) {
+		repository.delete(cliente);
+	}
+}
