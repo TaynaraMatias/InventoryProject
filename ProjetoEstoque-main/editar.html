@@ -50,22 +50,27 @@
         <h5 class="card-header">Edição</h5>
         <form class="container col-md-5 mt-5 " id="formCadastroProduto">
 
+          <div class="form-groupQuantidade">
+            <label  for="formGroupExampleInput2">ID</label>
+            <input type="number" class="form-control" id="inputId" placeholder="Digite o ID " readonly>
+          </div>
+
         <div class="form-groupRegistro ">
           <label for="formGroupExampleInput" >Nome do Produto</label>
-          <input  type="text" class="form-control" id="inputNome" placeholder="Digite o nome do produto "><br>
+          <input  type="text" class="form-control" id="inputNome" placeholder="Digite o nome do produto " >
         </div>
         <div class="form-groupQuantidade">
           <label  for="formGroupExampleInput2">Quantidade</label>
-          <input type="number" class="form-control" id="inputQuantidade" placeholder="Digite a quantidade "><br>
+          <input type="number" class="form-control" id="inputQuantidade" placeholder="Digite a quantidade ">
         </div>
         <div class="form-groupPreco ">
           <label for="formGroupExampleInput2">Preço</label>
-          <input type="number" class="form-control" id="inputPreco" placeholder="Digite o preço aqui">
+          <input type="number" class="form-control" step=".01" id="inputPreco" placeholder="Digite o preço aqui">
         </div>
 
         <div class="mt-5">
-          <button class="butao" style="border-radius: 6px ;"><a href="estoque.html">Salvar</a></button>
-        </div> <br>
+          <button type="submit" class="btn btn-success" style="border-radius: 6px ;">Salvar</button>
+        </div> 
         
         </form>
       </div>

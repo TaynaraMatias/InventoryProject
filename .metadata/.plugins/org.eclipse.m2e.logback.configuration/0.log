@@ -1544,3 +1544,11 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:j
 2022-11-05 13:26:40,876 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-11-05 13:26:40,877 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-11-05 13:26:40,877 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Taynara Matias\Downloads\api-clientes-13092022\src\test\resources
+2022-11-06 16:43:41,589 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-11-06 16:44:56,302 [Worker-6: Launching api-produtos - ApiProdutosApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-06 16:44:56,326 [Worker-6: Launching api-produtos - ApiProdutosApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-06 16:44:56,334 [Worker-6: Launching api-produtos - ApiProdutosApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-06 16:44:56,395 [Worker-6: Launching api-produtos - ApiProdutosApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-06 16:44:56,445 [Worker-6: Launching api-produtos - ApiProdutosApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-06 16:44:56,446 [Worker-6: Launching api-produtos - ApiProdutosApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-06 16:44:56,446 [Worker-6: Launching api-produtos - ApiProdutosApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Taynara Matias\Downloads\api-clientes-13092022\src\test\resources
